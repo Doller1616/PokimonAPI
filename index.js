@@ -5,6 +5,9 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.static(path.join(__dirname, 'dummyAPIS')));
 
+app.get('/',(req,res)=>{
+    res.send('https://pokimondummyapi.herokuapp.com/pokimon.json');
+})
 
 app.listen(PORT,()=> { 
   console.log("Server Started")
