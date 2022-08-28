@@ -1,0 +1,123 @@
+{
+ 
+    "pokimons" : [
+        {
+            "name" : "Bulbasaur",
+            "img" : "https://img.pokemondb.net/artwork/bulbasaur.jpg",
+            "height" : "0.7 m (2′04″)",
+            "weight" : "6.9 kg (15.2 lbs)",
+            "power_level" : "Level 8",
+            "type" : ["grass", "poision"],
+            "evolutions" : [
+                {
+                    "name" : "Ivysaur",
+                    "img" : "https://img.pokemondb.net/artwork/ivysaur.jpg",
+                    "height" : "1.0 m (3′03″)",
+                    "weight":	"13.0 kg (28.7 lbs)",
+                    "type" : ["grass", "poision"],
+                    "power_level" : "Level 16"
+                },
+                {
+                    "name" : "Venusaur",
+                    "img" : "https://img.pokemondb.net/artwork/venusaur.jpg",
+                    "height" : "2.0 m (6′07″)",
+                    "weight":	"100.0 kg (220.5 lbs)",
+                    "type" : ["grass", "poision"],
+                    "power_level" : "Level 32"
+                }
+            ]
+        },
+        {
+            "name" : "Squirtle",
+            "img" : "https://img.pokemondb.net/artwork/squirtle.jpg",
+            "height" : "0.5 m (1′08″)",
+            "weight" : "9.0 kg (19.8 lbs)",
+            "power_level" : "Level 8",
+            "type" : ["water"],
+            "evolutions" : [
+                {
+                    "name" : "wartortle",
+                    "img" : "https://img.pokemondb.net/artwork/wartortle.jpg",
+                    "height" : "1.0 m (3′03″)",
+                    "weight":	"22.5 kg (49.6 lbs)",
+                    "type" : ["water"],
+                    "power_level" : "Level 16"
+                },
+                {
+                    "name" : "Blastoise",
+                    "img" : "https://img.pokemondb.net/artwork/blastoise.jpg",
+                    "height" : "1.6 m (5′03″)",
+                    "weight":	"85.5 kg (188.5 lbs)",
+                    "type" : ["water"],
+                    "power_level" : "Level 32"
+                }
+            ]
+        },
+        {
+            "name" : "Charmander",
+            "img" : "https://img.pokemondb.net/artwork/charmander.jpg",
+            "height" : "0.6 m (2′00″)",
+            "weight" : "8.5 kg (18.7 lbs)",
+            "power_level" : "Level 8",
+            "type" : ["fire"],
+            "evolutions" : [
+                {
+                    "name" : "Charmeleon",
+                    "img" : "https://img.pokemondb.net/artwork/charmeleon.jpg",
+                    "height" : "1.1 m (3′07″)",
+                    "weight": "19.0 kg (41.9 lbs)",
+                    "type" : ["fire"],
+                    "power_level" : "Level 16"
+                },
+                {
+                    "name" : "Charizard",
+                    "img" : "https://img.pokemondb.net/artwork/charizard.jpg",
+                    "height" : "1.7 m (5′07″))",
+                    "weight":	"100.0 kg (220.5 lbs)",
+                    "type" : ["fire", "flying"],
+                    "power_level" : "Level 32"
+                }
+            ]
+        },
+        {
+            "name" : "Pichu",
+            "img" : "https://img.pokemondb.net/artwork/pichu.jpg",
+            "height" : "0.3 m (1′00″)",
+            "weight" : "2.0 kg (4.4 lbs)",
+            "power_level" : "Level 8",
+            "type" : ["electric"],
+            "evolutions" : [
+                {
+                    "name" : "Pikachu",
+                    "img" : "https://img.pokemondb.net/artwork/pikachu.jpg",
+                    "height" : "0.4 m (1′04″)",
+                    "weight":	"6.0 kg (13.2 lbs)",
+                    "type" : ["electric"],
+                    "power_level" : "Level 16"
+                },
+                {
+                    "name" : "Raichu",
+                    "img" : "https://img.pokemondb.net/artwork/raichu.jpg",
+                    "height" : "0.8 m (2′07″)",
+                    "weight": "30.0 kg (66.1 lbs)",
+                    "type" : ["electric"],
+                    "power_level" : "Level 32",
+                    "or_evolve" : {
+                        "name" : "Raichu Alolan",
+                        "img" : "https://img.pokemondb.net/artwork/raichu-alolan.jpg",
+                        "height" : "0.7 m (2′04″)",
+                        "weight":	"21.0 kg (46.3 lbs)",
+                        "type" : ["electric", "psychic"],
+                        "power_level" : "Level 64"
+                    }
+                }
+            ]
+        }
+    ]
+  
+    
+}
+
+
+
+
