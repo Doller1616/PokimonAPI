@@ -11,11 +11,11 @@ const BASEURL = PORT == 5000 ? "http://localhost:5000" : "https://pokimondummyap
 
 
 app.get('/',(req,res)=>{
-    res.redirect(`${BASEURL}/pokemon.json`);
-})
 
-app.get('/cricket',(req,res)=>{
-  res.redirect(`${BASEURL}/cricket-opta.json`);
+    res.send({
+      pokemon : `${BASEURL}/pokemon.json`,
+      cricket : `${BASEURL}/cricket-opta.json`
+    })
 })
 
 app.listen(PORT,()=> { 
