@@ -7,9 +7,15 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.static(path.join(__dirname, 'dummyAPIS')));
+const BASEURL = PORT == 5000 ? "http://localhost:5000" : "https://pokimondummyapi.herokuapp.com";
+
 
 app.get('/',(req,res)=>{
-    res.redirect('https://pokimondummyapi.herokuapp.com/pokimon.json');
+    res.redirect(`${BASEURL}/pokemon.json`);
+})
+
+app.get('/cricket',(req,res)=>{
+  res.redirect(`${BASEURL}/cricket-opta.json`);
 })
 
 app.listen(PORT,()=> { 
