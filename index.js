@@ -26,7 +26,7 @@ app.get('/flags',(req,res)=>{
     else {
       const flagsUrl = files.reduce((acc,file) => { 
         const key = file.split('.')[0];
-        return { ...acc, [key] :`${BASEURL}/${file}`}
+        return { ...acc, [key] :`${BASEURL}/flags/${file}`}
       },{})
       res.send(flagsUrl);
     }
