@@ -28,7 +28,8 @@ app.get('/flags',(req,res)=>{
         const key = file.split('.')[0];
         return { ...acc, [key] :`${BASEURL}/flags/${file}`}
       },{})
-      res.send(flagsUrl);
+      const otherFlags = {'au': 'https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg'}
+      res.send({...flagsUrl, otherFlags});
     }
   })
   
